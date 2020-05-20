@@ -30,7 +30,7 @@ This repo provides the ETL pipeline, to ingest sparkify's music data into an AWS
 
 ## Running the ETL Pipeline
 ---
-* Turning on the sparkify_music_dwh_dag DAG in Airflow UI will automatically trigger the ETL pipelines to run.
+* Turning on the sparkify_analytics_dag DAG in Airflow UI will automatically trigger the ETL pipelines to run.
 * DAG is as such (from graph view):
 
 ![DAG](images/dag.PNG)
